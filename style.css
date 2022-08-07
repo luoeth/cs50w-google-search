@@ -1,3 +1,26 @@
+body {
+    margin: 10px;
+    height: 100vh;
+    font-family: Arial, sans-serif;
+    color: #202124;
+  }
 .navbar {
     text-align: right;
+    margin: 10px;
+}
+.navbar a, .navbar a:active, .navbar a:hover, .navbar a:visited {
+    text-decoration: none;
+}
+.navbar a:active, .navbar a:hover {
+    text-decoration: underline;
+}
+.searchbar {
+    border-color: #888888;
+    border-style: solid;
+    border-width: 1px;
+    border-radius: 20px;
+    display: block;
+    margin: 10px;
+    padding: 10px;
+    width: 500px;
 }
