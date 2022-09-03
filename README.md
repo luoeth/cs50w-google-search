@@ -68,17 +68,3 @@ Your website must meet the following requirements:
   * Any <input> element (whether its type is text, submit, number, or something else entirely) can have name and value attributes that will become GET parameters when a form is submitted.
   * You may also find it helpful to look at Google’s own HTML to answer these questions. In most browsers, you can control-click or right-click on a page and choose “View Page Source” to view the page’s underlying HTML.
 * To include an input field in a form that users cannot see or modify, you can use a “hidden” input field.
-# How to Submit
-Visit this link, log in with your GitHub account, and click Authorize cs50. Then, check the box indicating that you’d like to grant course staff access to your submissions, and click Join course.
-Install Git and, optionally, install submit50.
-When you submit your project, the contents of your web50/projects/2020/x/search branch should match the file structure of the unzipped distribution code as originally received. That is to say, your files should not be nested inside of any other directories of your own creation (search or project0, for example). Your branch should also not contain any code from any other projects, only this one. Failure to adhere to this file structure will likely result in your submission being rejected.
-
-By way of example, for this project that means that if the grading staff visits https://github.com/me50/USERNAME/blob/web50/projects/2020/x/search/index.html (where USERNAME is your own GitHub username as provided in the form, below) your submission for index.html for this project should be what appears. If it doesn’t, reorganize your repository as needed to match this paradigm.
-
-If you’ve installed submit50, execute
-submit50 web50/projects/2020/x/search
-Otherwise, using Git, push your work to https://github.com/me50/USERNAME.git, where USERNAME is your GitHub username, on a branch called web50/projects/2020/x/search.
-
-Record a screencast not to exceed 5 minutes in length, in which you demonstrate your project’s functionality. Your URL bar must remain visible throughout your demonstration of the project. Be certain that every element of the specification, above, is demonstrated in your video. There’s no need to show your code in this video, just your application in action; we’ll review your code on GitHub. Upload that video to YouTube (as unlisted or public, but not private) or somewhere else. In your video’s description, you must timestamp where your video demonstrates each of the seven (7) elements of the specification. This is not optional, videos without timestamps in their description will be automatically rejected.
-Submit this form.
-You can then go to https://cs50.me/cs50w to view your current progress!
